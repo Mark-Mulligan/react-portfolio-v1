@@ -1,6 +1,7 @@
 import React from "react";
 import CustomNavbar from "../components/CustomNavbar";
 import profilePicture from "../images/profile-picture-square-removebg-preview.png";
+import resume from '../images/MarkMulligan-Resume.pdf';
 import "./AboutPage.css";
 
 const AboutPage = () => {
@@ -32,7 +33,7 @@ const AboutPage = () => {
               look forward to continuing to improve my skills as a developer.
             </p>
 
-            <a href="#" target="_blank">
+            <a href={resume} target="_blank" rel="noreferrer">
               <button id="resume" className="mt-4 btn btn-outline-light">
                 Resume
               </button>
