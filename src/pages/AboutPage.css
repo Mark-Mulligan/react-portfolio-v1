@@ -1,0 +1,50 @@
+.about-container {
+  margin-top: 40px;
+}
+
+.about-title-container {
+  margin-bottom: 25px;
+}
+
+.about-title-container h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.about-title-container hr {
+  background-color: rgb(213, 211, 210);
+}
+
+.profile-picture-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text-col {
+  text-align: justify;
+  font-size: 18px;
+}
+
+.last-p {
+  margin-bottom: 0;
+}
+
+.email-link {
+  color: rgb(213, 211, 210);
+}
+
+.email-link:hover {
+  color: grey;
+}
+
+@media (max-width: 991px) {
+  .about-container {
+      margin-top: 40px;
+  }
+
+  .about-text-col {
+      padding-top: 25px;
+      padding-bottom: 50px;
+  }
+}
