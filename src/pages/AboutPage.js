@@ -28,13 +28,13 @@ const AboutPage = () => {
               to study Full-Stack Web Development.
             </p>
 
-            <p className="last-p">
+            <p>
               After graduating, I plan to purse a career in web development and
               look forward to continuing to improve my skills as a developer.
             </p>
 
             <a href={resume} target="_blank" rel="noreferrer">
-              <button id="resume" className="mt-4 btn btn-outline-light">
+              <button id="resume" className="mt-2 btn btn-outline-light">
                 Resume
               </button>
             </a>
