@@ -3,7 +3,7 @@ import CustomNavbar from "../components/CustomNavbar";
 
 const SkillsPage = () => {
   return (
-    <div className="background-wrapper green-background">
+    <div className="background-wrapper green-background transition-from-left">
       <CustomNavbar />
       Skills Page
     </div>

@@ -22,3 +22,77 @@
 .purple-background {
   background-color: rgba(30, 20, 42, 0.9);
 }
+
+/* Page Transitions */
+.transition-from-top {
+  animation: moveInFromTop 1.4s;
+}
+
+.transition-from-bottom {
+  animation: moveInFromBottom 1.4s;
+}
+
+.transition-from-left {
+  animation: moveInFromLeft 1.4s;
+}
+
+.transition-from-right {
+  animation: moveInFromRight 1.4s;
+}
+
+.transition-fade-in {
+  animation: transitionFadeIn ease-in 2s;
+}
+
+@keyframes transitionFadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }  
+}
+
+@keyframes moveInFromTop {
+  from {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+@keyframes moveInFromBottom {
+  from {
+      transform: translateY(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+@keyframes moveInFromLeft {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@keyframes moveInFromRight {
+  from {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
