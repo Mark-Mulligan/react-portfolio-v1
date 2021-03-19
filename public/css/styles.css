@@ -1,0 +1,11 @@
+body {
+  background-image: url('../images/glowing-keyboard.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.navbar {
+  padding: 0px;
+  z-index: 1;
+}

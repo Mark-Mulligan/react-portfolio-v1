@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react";
+import CustomNavbar from "../components/CustomNavbar";
 
 const PortfolioPage = () => {
   return (
-  <div>Portfolio Page</div>
-  )
-}
+    <div className="background-wrapper blue-background">
+      <CustomNavbar />
+      Portfolio Page
+    </div>
+  );
+};
 
-export default PortfolioPage
+export default PortfolioPage;

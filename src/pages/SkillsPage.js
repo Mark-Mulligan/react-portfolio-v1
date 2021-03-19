@@ -1,13 +1,13 @@
 import React from "react";
 import CustomNavbar from "../components/CustomNavbar";
 
-const AboutPage = () => {
+const SkillsPage = () => {
   return (
-    <div className="background-wrapper purple-background">
+    <div className="background-wrapper green-background">
       <CustomNavbar />
-      About Page
+      Skills Page
     </div>
   );
 };
 
-export default AboutPage;
+export default SkillsPage;

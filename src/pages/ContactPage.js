@@ -1,13 +1,13 @@
 import React from "react";
 import CustomNavbar from "../components/CustomNavbar";
 
-const AboutPage = () => {
+const ContactPage = () => {
   return (
-    <div className="background-wrapper purple-background">
+    <div className="background-wrapper maroon-background">
       <CustomNavbar />
-      About Page
+      ContactPage
     </div>
   );
 };
 
-export default AboutPage;
+export default ContactPage;
